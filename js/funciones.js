@@ -10,7 +10,7 @@ function saludar() {
 let saludar = function () {
     console.log("Hola mundo")
 }
-//saludar()*/
+saludar()*/
 
 /*let saludar = function (nombre, apellido) {
     return nombre + apellido //Nada se ejecuta despues del return
@@ -19,9 +19,10 @@ let saludar = function () {
 
 /*let saludar = function (nombre, apellido) {
     console.log("Hola Mundo")
-    return nombre + apellido
+    return nombre + apellido // Nada se ejecuta despues del return
     console.log("Hello World")
-}*/
+}
+saludar()*/
 
 /*function ejercicio() {
     console.log("uno")
@@ -77,9 +78,31 @@ saludar("Manuel")*/
     }
 }*/
 
-const crearObjeto = (name, age) => {
+/*const crearObjeto = (name, age) => {
     return {
         name,
         age
     }
+}*/
+
+/*function saludar(nombre) {
+    persona = nombre || "Desconocido"
+    console.log(`${persona}`)
 }
+saludar()*/
+
+let usuarioOriginal = {
+    nombre: "Manuel",
+    edad: 30
+}
+
+function actualizarUsuario(usuario) {
+    usuario.nombre = "Pedro";
+    usuario.edad = 25;
+}
+
+console.log("Antes de actualizar", usuarioOriginal)
+
+actualizarUsuario(usuarioOriginal)
+
+console.log("Despues de actualizar", usuarioOriginal)

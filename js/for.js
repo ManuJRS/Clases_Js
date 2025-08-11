@@ -1,5 +1,9 @@
 /*for (let index = 0; index < 11; index++) {
     console.log(index)
+}
+
+/*for (let index = 0; index < 16; index++) {
+    console.log(index)
 }*/
 
 /*for (let index = 0; index < 11; index++) {
@@ -24,9 +28,9 @@ for (let index = 0; index < 5; index++) {
 
 
 //for anidado
-for (let index = 0; index < 5; index++) {
+/*for (let index = 0; index < 5; index++) {
     let caja = index + ".";
     for (let indice = 0; indice < 5; indice++) {
         console.log(caja + indice)
     }
-}
+}*/

@@ -1,7 +1,6 @@
 //Array multidimensional
-/*
-let mascotas = ["perros", "gatos", "ratones", ["pez", "perico"]];
-console.log(mascotas[3][0]);*/
+/*let mascotas = ["perros", "gatos", "ratones", ["pez", "perico"]];
+console.log(mascotas[3][1]);*/
 
 /*let persona = {
     nombre: "Manuel",
@@ -22,11 +21,11 @@ console.log(persona.familia.tios[1])
 delete persona.familia.mama;
 console.log(persona)*/
 
-let perro = {
+/*let perro = {
     nombre: "firulais",
     ladrar() {
         console.log("wow wow")
     }
 }
 
-perro.ladrar()
+perro.ladrar()*/
