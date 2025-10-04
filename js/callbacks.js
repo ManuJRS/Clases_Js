@@ -395,3 +395,197 @@ operacion(10, 5, suma)*/
 hacerTarea("Descargar archivo", () => {
     console.log("Todo listo")
 });*/
+
+
+
+
+
+
+//Una funcion que reciba dos parametros, una un numero y otra una funcion, esta funcion debe elevar al cuadrado el valor que se le pasa como parametro.
+
+/*function operacion(numero, calcular) {
+    let resultado = numero
+    calcular(resultado)
+}
+function elevar(res) {
+    console.log(`El resultado es: ${Math.sqrt(res)}`)
+}
+
+operacion(4, elevar)*/
+
+
+/*function cuadradoCallback(value, callback) {
+    setTimeout(() => {
+        callback(value, value * value)
+    }, 3000);
+}
+cuadradoCallback(4, function (value, result) {
+    console.log("Iniciando CallBack")
+    console.log(`valor: ${result}`)
+})*/
+
+
+
+
+
+
+
+
+
+//
+
+/*const animales = ["Perro", "Gato", "Caballo"];
+
+function modificar(yucatan, callback) {
+    animales.push("Pez")
+    callback(yucatan)
+}
+modificar(animales, function (merida) {
+    console.log(`e modificado el array y ahora es de: ${merida.length} elementos`, animales)
+})*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+/*const animales = ["Perro", "Gato", "Caballo"];
+
+function modificar(yucatan, callback) {
+    setTimeout(() => {
+        animales.push("Pez")
+        callback(yucatan)
+    }, 3000);
+}
+modificar(animales, function (merida) {
+    console.log(`e modificado el array y ahora es de: ${merida.length} elementos`, animales)
+})*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function primeraFuncion(callback) {
+    setTimeout(() => {
+        console.log("primera operacion completada")
+        callback()
+    }, 1000);
+}
+function segundaFuncion(callback) {
+    setTimeout(() => {
+        console.log("segunda operacion completada")
+        callback()
+    }, 1000);
+}
+function terceraFuncion(callback) {
+    setTimeout(() => {
+        console.log("tercera operacion completada")
+        callback()
+    }, 1000);
+}
+primeraFuncion(function () {
+    segundaFuncion(function () {
+        terceraFuncion(function () {
+            setTimeout(() => {
+                console.log("operaciones terminadas")
+            }, 1000);
+        })
+    })
+})*/
+
+
+
+
+
+
+/*function cuadradoCallback(valor, callback) {
+    setTimeout(() => {
+        callback(valor, valor * valor)
+    }, 3000);
+}
+cuadradoCallback(4, function (valor, resultado) {
+    console.log("Iniciando Callback")
+    console.log(`El cuadrado de ${valor} es: ${resultado}`)
+})*/
+
+
+
+/*
+let obtenerPostDeUsarios = (usuario, callback) => {
+    console.log(`Obteniendo los posts de ${usuario}`)
+    setTimeout(() => {
+        let posts = ["post1", "post2", "post3"]
+        callback(posts[0])
+    }, 2000);
+}
+obtenerPostDeUsarios("Manuel", function (mostrarPosts) {
+    console.log(mostrarPosts)
+})*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*let getUsers = (callback) => {
+    setTimeout(() => {
+        let users = [
+            { id: 1, name: "pepe" },
+            { id: 2, name: "pedro" }
+        ]
+        callback(users)
+    }, 500);
+}
+getUsers(function (yucatan) {
+    console.log(`Users: ${yucatan}`)
+})*/
+
+/*const users = getUsers()
+console.log(`Users:`, users)*/
